@@ -1,5 +1,9 @@
 # vuetify2-test
 
+![github pages](https://github.com/nulltemp/vuetify2-test/workflows/github%20pages/badge.svg)
+
+https://nulltemp.github.io/vuetify2-test/
+
 ## Project setup
 ```
 yarn install
