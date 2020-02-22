@@ -41,6 +41,11 @@
       <order v-else-if="selected === 'order'" />
       <hello-world v-else />
     </v-content>
+
+    <v-footer dark>
+      <v-spacer />
+      <privacy-policy />
+    </v-footer>
   </v-app>
 </template>
 
@@ -56,6 +61,7 @@ import AlignSelf from "./components/AlignSelf";
 import Cols from "./components/Cols";
 import Offset from "./components/Offset";
 import Order from "./components/Order";
+import PrivacyPolicy from "./components/modal/PrivacyPolicy";
 
 export default {
   name: "App",
@@ -70,7 +76,8 @@ export default {
     AlignSelf,
     Cols,
     Offset,
-    Order
+    Order,
+    PrivacyPolicy
   },
   data() {
     return {
