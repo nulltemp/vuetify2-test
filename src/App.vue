@@ -28,7 +28,7 @@
       </v-btn>
     </v-app-bar>
 
-    <v-content>
+    <v-main>
       <fluid v-if="selected === 'fluid'" />
       <align v-else-if="selected === 'align'" />
       <alignContent v-else-if="selected === 'alignContent'" />
@@ -40,7 +40,7 @@
       <offset v-else-if="selected === 'offset'" />
       <order v-else-if="selected === 'order'" />
       <hello-world v-else />
-    </v-content>
+    </v-main>
 
     <v-footer dark>
       <v-spacer />
