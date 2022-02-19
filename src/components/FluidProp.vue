@@ -3,9 +3,7 @@
     <v-container class="background">
       <v-row>
         <v-col>
-          <v-card color="white">
-            none
-          </v-card>
+          <v-card color="white"> none </v-card>
         </v-col>
       </v-row>
     </v-container>
@@ -13,9 +11,7 @@
     <v-container fluid class="fluid-background">
       <v-row>
         <v-col>
-          <v-card color="white">
-            flued
-          </v-card>
+          <v-card color="white"> flued </v-card>
         </v-col>
       </v-row>
     </v-container>

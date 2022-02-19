@@ -5,25 +5,15 @@
         <v-col>
           {{ item.val }}
         </v-col>
-        <v-col class="red">
-          red
-        </v-col>
-        <v-col class="blue font-fix">
-          blue
-        </v-col>
+        <v-col class="red"> red </v-col>
+        <v-col class="blue font-fix"> blue </v-col>
       </v-row>
     </v-container>
     <v-container>
       <v-row align="center" align-xl="stretch" class="row-height">
-        <v-col>
-          align-xl stretch
-        </v-col>
-        <v-col class="red">
-          red
-        </v-col>
-        <v-col class="blue font-fix">
-          blue
-        </v-col>
+        <v-col> align-xl stretch </v-col>
+        <v-col class="red"> red </v-col>
+        <v-col class="blue font-fix"> blue </v-col>
       </v-row>
     </v-container>
   </div>

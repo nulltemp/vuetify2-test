@@ -4,6 +4,8 @@
 
 https://nulltemp.github.io/vuetify2-test/
 
+https://qiita.com/nulltemp/items/cb93565ac81a78b04097
+
 ## Project setup
 ```
 yarn install

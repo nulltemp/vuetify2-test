@@ -29,16 +29,16 @@
     </v-app-bar>
 
     <v-main>
-      <fluid v-if="selected === 'fluid'" />
-      <align v-else-if="selected === 'align'" />
-      <alignContent v-else-if="selected === 'alignContent'" />
-      <dense v-else-if="selected === 'dense'" />
-      <justify v-else-if="selected === 'justify'" />
-      <no-gutters v-else-if="selected === 'noGutters'" />
-      <align-self v-else-if="selected === 'alignSelf'" />
-      <cols v-else-if="selected === 'cols'" />
-      <offset v-else-if="selected === 'offset'" />
-      <order v-else-if="selected === 'order'" />
+      <fluid-prop v-if="selected === 'fluid'" />
+      <align-prop v-else-if="selected === 'align'" />
+      <alignContent-prop v-else-if="selected === 'alignContent'" />
+      <dense-prop v-else-if="selected === 'dense'" />
+      <justify-prop v-else-if="selected === 'justify'" />
+      <no-gutters-prop v-else-if="selected === 'noGutters'" />
+      <align-self-prop v-else-if="selected === 'alignSelf'" />
+      <cols-prop v-else-if="selected === 'cols'" />
+      <offset-prop v-else-if="selected === 'offset'" />
+      <order-prop v-else-if="selected === 'order'" />
       <hello-world v-else />
     </v-main>
 
@@ -51,32 +51,32 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld";
-import Fluid from "./components/Fluid";
-import Align from "./components/Align";
-import AlignContent from "./components/AlignContent";
-import Dense from "./components/Dense";
-import Justify from "./components/Justify";
-import NoGutters from "./components/NoGutters";
-import AlignSelf from "./components/AlignSelf";
-import Cols from "./components/Cols";
-import Offset from "./components/Offset";
-import Order from "./components/Order";
+import FluidProp from "./components/FluidProp";
+import AlignProp from "./components/AlignProp";
+import AlignContentProp from "./components/AlignContentProp";
+import DenseProp from "./components/DenseProp";
+import JustifyProp from "./components/JustifyProp";
+import NoGuttersProp from "./components/NoGuttersProp";
+import AlignSelfProp from "./components/AlignSelfProp";
+import ColsProp from "./components/ColsProp";
+import OffsetProp from "./components/OffsetProp";
+import OrderProp from "./components/OrderProp";
 import PrivacyPolicy from "./components/modal/PrivacyPolicy";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
-    Fluid,
-    Align,
-    AlignContent,
-    Dense,
-    Justify,
-    NoGutters,
-    AlignSelf,
-    Cols,
-    Offset,
-    Order,
+    FluidProp,
+    AlignProp,
+    AlignContentProp,
+    DenseProp,
+    JustifyProp,
+    NoGuttersProp,
+    AlignSelfProp,
+    ColsProp,
+    OffsetProp,
+    OrderProp,
     PrivacyPolicy
   },
   data() {
